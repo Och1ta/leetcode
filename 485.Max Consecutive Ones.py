@@ -5,6 +5,6 @@ class Solution:
             if i == 1:
                 k += 1
             else:
-                n = max(k,n)
-                k = 0
-        return max(n,k)
+                n: int = max(k,n)
+                k: int = 0
+        return max(n, k)
